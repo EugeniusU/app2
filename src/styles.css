@@ -1,0 +1,201 @@
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    min-height: 480px;
+    background: linear-gradient(#765d8c, #8a7e95, #41364a);
+    color: white;
+    position: absolute;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+.chat {
+    width: 60%;
+}
+
+.channels, .friends {
+    width: 15%;
+}
+
+.settings, .channels, .chat, .friends {
+/*    border: 1px solid green;*/
+    padding: 1%;
+}
+
+.first {
+    max-height: 20%;
+    min-height: 20px;
+    margin-bottom: 5%;
+}
+
+textarea {
+    padding: 1%;
+    border: none;
+    margin-left: 2%;
+    width: 95%;
+    resize: none;
+    background: lightgray;
+    font-size: 16px;
+}
+
+.message {
+    width: 90%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    position: relative;
+    padding: 1%;
+}
+
+#one {
+    background-image: url('1.png');
+}
+
+#two {
+    background-image: url('2.png');
+}
+
+#three {
+    background-image: url('3.png');
+}
+
+#apply, #find, #faq {
+    background-color: lightgrey;
+    font-size: 30px;
+}
+
+#find {
+    transform: rotate(90deg);
+}
+
+#one, #two, #three, #apply, #find, #userName {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    text-align: center;
+    display: table;
+    color: black;
+}
+
+div > span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.friends .first {
+    display: flex;
+}
+
+#faq {
+    width: 20%;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 7%;
+}
+
+#faq span {
+    display: inline;
+    color: black;
+}
+
+input {
+    background: lightgray;
+    height: 30px;
+}
+
+.user {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    top: 85%;
+    position: relative;
+}
+
+#userLogo {
+    background: lightgreen;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#userName {
+    height: 100%;
+    font-size: 20px;
+}
+
+.friend {
+    width: 100%;
+    height: 10%;
+    margin-top: 3%;
+    display: flex;
+}
+
+.friend div {
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background: yellowgreen;
+}
+
+.friend span {
+    height: 50%;
+    vertical-align: middle;
+    margin-left: 15%;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.messages {
+    width: 100%;
+    height: 77%;
+    overflow-y: scroll;
+}
+
+.messages div {
+    display: flex;
+    justify-content: space-around;
+    height: 20%;
+    width: 100%;
+}
+
+#headers {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    text-shadow: 5px 5px 5px deeppink;
+}
+
+#show {
+    position: absolute;
+    color: yellow;
+}
+
+.info {
+    position: fixed;
+    right: 0%;
+    width: 17%;
+    max-height: 100%;
+    min-height: 480px;
+    background: lightgrey;
+    color: white;
+}
+
+#close {
+    position: absolute;
+    right: 0%;
+}
+
+.settings div {
+    margin-bottom: 5%;
+}
+
+.friends div {
+    margin-bottom: 5%;
+}

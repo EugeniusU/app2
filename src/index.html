@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Page</title>
+        <meta charset='utf-8'>
+        <link rel='stylesheet' href='styles.css'>
+    </head>
+    <body>
+        <div class='main'>
+
+            <div class='info' style='display: none'>
+                <button id='close'>X</button>
+                <div><a href=''>About</a></div>
+                <div><a href=''>Settings</a></div>
+                <div><a href=''>Contacts</a></div>
+            </div>
+
+            <div class='settings'>
+                <div class='first' id='one'>
+                    <span>Jack</span>
+                </div>
+                <div id='two'>
+                    <span>Mary</span>
+                </div>
+                <div id='three'>
+                    <span>Kate</span>
+                </div>
+                <div id='apply'>
+                    <span>+</span>
+                </div>
+                <div id='find'>
+                    <span>&#9740;</span>
+                </div>
+            </div>
+            <div class='channels'>
+                <div class='first'>Game center</div>
+                <div class='user'>
+                    <div id='userLogo'></div>
+                    <div id='userName'>
+                    <span>Jack</span>
+                    </div>
+                </div>
+            </div>
+            <div class='chat'>
+                <div class='first'>Some msg</div>
+                <div id='headers'>
+                    <div>From</div>
+                    <div>To</div>
+                    <div>Message</div>
+                </div>
+                <div id='show' style='display: none'>Выберите, кому отправить сообщение</div>
+                <div class='messages'>
+                    
+                </div>
+                <div class='message'>
+                    <textarea placeholder="message"></textarea>
+                </div>
+            </div>
+            <div class='friends'>
+                <div class="first">
+                    <input type='text' style="max-width: 60%;" placeholder="search" id='search'>
+                    <div id='faq'>
+                        <span>?</span>
+                    </div>                   
+                </div>
+                <div class='friend'>
+                    <div></div>
+                    <span>Friend 1</span>
+                </div>
+                <div class='friend'>
+                    <div></div>
+                    <span>Friend 2</span>
+                </div>
+                <div class='friend'>
+                    <div></div>
+                    <span>Friend 3</span>
+                </div>
+            </div>
+        </div>
+        <script src='main.js'>
+        </script>
+    </body>
+</html>
